@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HAPPY HOLI</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div id="enterName">
+		<div id="enterField">
+
+			<h2 style="text-align: center;">कृपया अपना नाम बताएं</h2>
+			<input id="name" type="text" >
+			<button id="ok" onClick="nameInput()">ठीक है</button>
+			
+		</div>
+	</div>
+	<div class="main" style="display: none;">
+		
+		<img src="./images/color-smoke.gif" alt="" srcset="" id="firstImg">
+		<!-- bottom left -->
+		<img src="./images/holi-holi-hai.gif" alt="" srcset=""  id="firstImg2">
+	
+		<!-- bottom right -->
+		<img src="./images/festival-colors.gif" alt="" srcset=""  id="firstImg3" >
+		<img src="./images/holi-होली.gif"  id="top" class="gif">
+		<div class="name" style="text-align: center ;"><span></span><h3 style="font-size: 24px;" id="dynamicName">deependra kashyap ji</h3><h2 style="font-size: 24px;">
+			"हमारी ओर से आपको
+			होली की हार्दिक शुभकामनाएं! आपके जीवन में खुशियों का रंग भरा रहे।"
+			
+		</h2><span></span></div>
+		<img src="./images/holi.gif" alt="" srcset="" class="gif" id="centerImg" >
+	
+		<div class="audio"  style="display:none;">
+			<audio src="./audio/BalamPichkari.mp3" id="1"  controls loop></audio>
+			<audio src="./audio/bura-na-mano.mp3" id="2" controls loop></audio>
+			<audio src="./audio/3rd-audio.mp3" id="3" controls loop></audio>
+			<audio src="./audio/mix.mp3" id="4" controls loop></audio>
+			<audio src="./audio/raghubeera.mp3" id="5" controls loop></audio>
+		</div>
+	</div>
+	<script src="./main.js"></script>
+</body>
+</html>
