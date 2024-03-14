@@ -14,7 +14,7 @@ body{
 	height: 88vh;
 	align-items: center;
 	justify-content: center;
-	background-image: url('/images/holi-happy-holi.gif');
+	background-image: url('./images/holi-happy-holi.gif');
 }
 #enterField{
 	display: flex;
