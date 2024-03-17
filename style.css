@@ -57,6 +57,31 @@ height: 30px;
 	font-weight: bolder;
 	color: rgb(189, 6, 0);
 }
+.name{
+	font-size: 20px;
+	margin: auto;
+	color: white;
+	font: 1000 normal 2.5em 'tahoma';
+	text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+	
+	animation: blinker 0.2s linear infinite;
+	color: red;
+	font-family: sans-serif;
+	font-weight: bolder;
+	
+}
+
+	@keyframes blinker {
+		0% {
+			opacity: 0;
+		   }
+		   50% {
+			opacity: 1;
+		   }
+		   100% {
+			opacity: 0;
+		   }	
+		}
 #top{
 	margin-left: 10rem;
 	width: 100px;
