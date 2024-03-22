@@ -13,6 +13,7 @@ body{
 #share{
 	position: absolute;
 left: 10px;
+	z-index: 0;
 	bottom: 3px;
 	display: flex;
 	justify-content: center;
