@@ -5,7 +5,27 @@ padding: 0;
 body{
 	background-color: rgb(2, 185, 185);
 	color:rgb(245, 7, 245);
+	font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
 }
+#share{
+	position: absolute;
+left: 10px;
+	bottom: 3px;
+	display: flex;
+	justify-content: center;
+	
+}
+a{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bolder;
+	color: red;
+	font-family:"Madimi One", sans-serif; ;
+}
+
 #enterName{
 	background-color: aqua;
 	display: flex;
@@ -14,7 +34,7 @@ body{
 	height: 88vh;
 	align-items: center;
 	justify-content: center;
-	background-image: url('./images/holi-happy-holi.gif');
+	background-image: url('/images/holi-happy-holi.gif');
 }
 #enterField{
 	display: flex;
@@ -41,6 +61,7 @@ button{
 	border-radius: 30px;
 	margin: 3px;
 	background-color: yellowgreen;
+	
 }
 #name{
 height: 30px;
@@ -49,6 +70,9 @@ height: 30px;
 }
 
 .name{
+	font-family: "Madimi One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	background-image: url('./images/holi-happy-holi.gif' );
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -57,31 +81,6 @@ height: 30px;
 	font-weight: bolder;
 	color: rgb(189, 6, 0);
 }
-.name{
-	font-size: 20px;
-	margin: auto;
-	color: white;
-	font: 1000 normal 2.5em 'tahoma';
-	text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
-	
-	animation: blinker 0.2s linear infinite;
-	color: red;
-	font-family: sans-serif;
-	font-weight: bolder;
-	
-}
-
-	@keyframes blinker {
-		0% {
-			opacity: 0;
-		   }
-		   50% {
-			opacity: 1;
-		   }
-		   100% {
-			opacity: 0;
-		   }	
-		}
 #top{
 	margin-left: 10rem;
 	width: 100px;
@@ -126,30 +125,64 @@ height: 30px;
 @keyframes rotateAnimation {
 	/* Define the keyframes for rotation */
 	from {
-	  transform: rotate(0deg); /* Start from 0 degrees rotation */
+		transform: rotate(0deg); /* Start from 0 degrees rotation */
 	}
 	to {
 	  transform: rotate(360deg); /* Rotate to 360 degrees */
 	}
-  }
-  #enterField{
+}
+#enterField{
 	font-size: 10px;
 	margin: auto;
 	color: white;
 	font: 10 normal 2.0em 'tahoma';
 	text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
-  }
-  .name{
+}
+.name{
 	font-size: 20px;
 	margin: auto;
 	color: white;
 	font: 1000 normal 2.5em 'tahoma';
 	text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
-  }
+	
+	animation: blinker 0.4s linear infinite;
+	color: red;
+	font-family: sans-serif;
+	font-weight: bolder;
+	
+}
+
+	@keyframes blinker {
+		0% {
+			opacity: 0;
+		   }
+		   50% {
+			opacity: 1;
+		   }
+		   100% {
+			opacity: 0;
+		   }	
+		}
 
  @media screen and (min-width: 1024px) {
 body {
-	width: 50%;
+	width: 100%;
+    height: 100vh;
+	background-color: rgb(2 148 148);
+
+}
+.name{
+	font-size: 20px;
+	margin: auto;
+	color: white;
+	font: 1000 normal 2.5em 'tahoma';
+	text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+	margin-right: 573px;
+	animation: blinker 0.2s linear infinite;
+	color: red;
+	font-family: sans-serif;
+	font-weight: bolder;
+	
 }
 #firstImg{
 	display: none;
@@ -162,8 +195,8 @@ body {
 }
 #centerImg{
    margin: 0px 42px 33px;;
-	width: 550PX;
-	height: 400px;
+   width: 532PX;
+   height: 374px;
 	animation: rotateAnimation 20s ease-in-out; /* Apply the animation */
 }
 	.main{
@@ -174,7 +207,7 @@ body {
 		margin-left: 316px;
 	}
 	#firstImg2{
-		position: absolute;
+	position: absolute;
     bottom: 0;
     right: 433px;
     width: 215px;
