@@ -22,7 +22,16 @@ function nameInput ( ){
 		nameInputBox.style.display='none'
 		showImgs()
 		playAudio()
-	
+	 async src="https://www.googletagmanager.com/gtag/js?id=G-KDP63RDJVK"
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KDP63RDJVK');
+  gtag('set', {'dimension1': name});
+
+
     var url = `whatsapp://send?text=  💛 💛 ${name} की ओर से आपको होली की हार्दिक शुभकामनाएं !!  💝 💝 ${name} ने आपके लिए कुछ खास संदेश भेजा यहां क्लिक करके देखें  👉🏼👉🏼
 	 https://deependrakashya.github.io/happy.holi.wish/`;
     document.getElementById("whatsappLink").setAttribute("href", url);
